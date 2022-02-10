@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: myapp-ingress
+  namespace: sampleapp
+  annotations:
+    ingress.kubernetes.io/rewrite-target: "/"
+spec:
+  tls:
+  - hosts:
+    - todo.com
+    secretName: todo-secret-tls
+  rules:
+  - host: todo.com
+    http:
+      paths:
+      - backend:
+          serviceName: myapp-service
+          servicePort: 3000 
