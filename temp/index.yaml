@@ -3,12 +3,12 @@ entries:
   sampleapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-10T13:26:19.671331035+05:30"
+    created: "2022-02-10T14:59:27.179660134+05:30"
     description: A Helm chart for Kubernetes
-    digest: 21077e6aa7caa93fdadfbb5d73511c9550c875c69ec99c713d2780df0f2da6f8
+    digest: b8659d0103c29fe470a46e1e6e316fccd33fa62a9be532146cb0a9395be0d1e8
     name: sampleapp
     type: application
     urls:
-    - sampleapp-0.1.1.tgz
-    version: 0.1.1
-generated: "2022-02-10T13:26:19.670950564+05:30"
+    - https://altair08.github.io/helm-test/temp/sampleapp-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-02-10T14:59:27.179214836+05:30"
